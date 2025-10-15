@@ -21,7 +21,7 @@ class Airplane {
 
   // Delegated Action 1: Take Off
   void takeOff() {
-    print('[$model] Starting to takeoff...');
+    print('[$model] Starting to takeoff....');
     pilot.announceTakeOff();
     engine.powerOn();
     navigationSystem.setRoute(navigationSystem.destination);
@@ -30,7 +30,7 @@ class Airplane {
 
   // Delegated Action 2: Landing
   void land() {
-    print('[$model] Starting to land...');
+    print('[$model] Starting to land....');
     navigationSystem.guideLanding();
     engine.reduceThrust();
     pilot.confirmLanding();

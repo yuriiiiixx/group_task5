@@ -22,10 +22,10 @@ void main() {
   );
 
   // Demonstrate delegation
-  print('--- Demo: takeOff() ---');
+  print('---- Demo: takeOff() ----');
   airplane.takeOff();
 
-  print('--- Demo: land() ---');
+  print('---- Demo: land() ----');
   airplane.land();
-}
+}g
 */
