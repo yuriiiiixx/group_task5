@@ -1,20 +1,31 @@
-import 'package:flutter/material.dart';
+// lib/main.dart
+// Integration file to demonstrate composition
+// Run: dart run lib/main.dart
+/*
+import 'airplane.dart';
+import 'engine.dart';
+import 'pilot.dart';
+import 'navigation_system.dart';
 
 void main() {
-  runApp(const MainApp());
-}
+  // Create part objects (Members 2-4)
+  var engine = Engine(model: 'Rolls Royce X900', power: 1500);
+  var pilot = Pilot(name: 'Captain Aznar');
+  var navSystem = NavigationSystem(destination: 'Thailand');
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+  // Create container (Member 1) with constructor injection
+  var airplane = Airplane(
+    model: 'Cebupac Flight 101',
+    engine: engine,
+    pilot: pilot,
+    navigationSystem: navSystem,
+  );
 
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
-    );
-  }
+  // Demonstrate delegation
+  print('--- Demo: takeOff() ---');
+  airplane.takeOff();
+
+  print('--- Demo: land() ---');
+  airplane.land();
 }
+*/
