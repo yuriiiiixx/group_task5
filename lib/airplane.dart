@@ -1,10 +1,8 @@
-// lib/airplane.dart
-// Member 1: Container class (Airplane)
-// Combines Engine, Pilot, and NavigationSystem using composition.
-/*
+// Container class that combines Engine, Pilot, and NavigationSystem using composition.
+
 import 'engine.dart';
 import 'pilot.dart';
-import 'navigation_system.dart';
+import 'navigation.dart';
 
 class Airplane {
   final String model;
@@ -38,4 +36,3 @@ class Airplane {
     print('[$model] Landing complete.\n');
   }
 }
-*/
